@@ -154,10 +154,27 @@ html, body, #wrapper, .section {
   height: 100%; 
 }
 
+.section-1 {
+    background: #EEE;
+}
+
+.section-2 {
+    background: #F0B866;
+}
+
+.section-3 {
+    background: #E04E4E;
+    color: white;
+}
+
 .section-content {
     margin: 0 auto 100px auto;
-    width: 320px;
-    height: 240px;
+
+    /* Height */
+    top: 50%;
+    position: relative;
+
+    width:  30%;
     border: 1px dashed;
     border-radius: 5px;
 }
