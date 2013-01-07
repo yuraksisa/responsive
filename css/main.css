@@ -93,6 +93,8 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* ----------------- FLUID GRID ----------------------- */
+
 .page {
 
    margin: 40px auto; /* 40px de alto y el elemento centrado */
@@ -146,7 +148,23 @@ img {
 
 }
 
+/* ---------------  SCROLLORAMA ----------------- */
 
+html, body, #wrapper, .section {
+  height: 100%; 
+}
+
+.section-content {
+    margin: 0 auto 100px auto;
+    width: 320px;
+    height: 240px;
+    border: 1px dashed;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+}
 
 /* ==========================================================================
    Helper classes
