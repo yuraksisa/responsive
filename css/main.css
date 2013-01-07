@@ -105,11 +105,11 @@ img {
    max-width: 100%; 
 }
 
-.page-part {
+.page-column {
    vertical-align: top;
 }
 
-.page-part-content {
+.page-column-content {
    padding: 0.2em;  
 }
 
@@ -137,10 +137,14 @@ img {
 
 }
 
+@media screen and (max-width: 400px) {
+  
+  .page-left, .page-center, .page-right {
+     float: none;
+     width: auto;
+  }
 
-
-
-
+}
 
 
 
